@@ -1,0 +1,6 @@
+function calcKw() {
+    var uso = document.getElementById("uso").value;
+    var kwh = document.getElementById("kwh").value;
+    var kwh_mes = uso * kwh
+    alert(kwh_mes)
+};
